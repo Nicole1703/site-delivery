@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url(timmerman\ \(21\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#filtro {
+    backdrop-filter: brightness(50%);
+    height: 100vh;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    gap: 2%;
+    color: white;
+
+}
+nav a {
+    text-decoration: none;
+    margin-top: 1%;
+}
+
+nav button {
+    background-color: dimgray;
+    color: white;
+    height: 40%;
+    width: 80px;
+    border-radius: 30%;
+    border: none;
+    margin: 16px;}
+
+#contato{
+    font-size: 50px;
+    margin-left: 10%;
+    margin-right: 20%;
+    text-decoration: underline wavy pink;
+    
+}
+#icones img{
+    color: white;
+    width: 250px;
+   
+}
+#icones div {
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10%;
+}
+#email{
+    position: relative;
+   left: 1vw;
+   color: white;
+
+}
+#whats{
+    position: relative;
+    left: 4vw;
+    right: 2vw;
+    color: white;
+ 
+}
+#insta{
+    position: relative;
+    left: 3vw;
+    display: flex;
+    color: white;
+    margin-top: 2%;
+}

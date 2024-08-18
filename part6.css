@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+    
+
+
+
+body {
+    background-image: url(timmerman\ \(23\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#filtro {
+    backdrop-filter: brightness(50%);
+    height: 100vh;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    gap: 2%;
+    color: white;
+
+
+}
+nav a {
+    text-decoration: none;
+    margin-top: 1%;
+}
+
+nav button {
+    background-color: dimgray;
+    color: white;
+    height: 40%;
+    width: 80px;
+    border-radius: 30%;
+    border: none;
+    margin: 16px;
+}
+
+#pedido {
+    font-size: 50px;
+    margin-left: 10%;
+    margin-right: 20%;
+    text-decoration: underline wavy pink;
+}
+
+
+#Pedido {
+    font-size: 50px
+}
+
+#td {
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.pr1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.pr1 p {
+    font-size: 30px;
+    padding-bottom: 7%;
+    padding-top: 7%;
+
+}
+
+#pr11 {
+    height: 30px;
+    width: 100px;
+    margin-bottom: 7%;
+    margin-left: 1%;
+
+
+}
+
+#pr12 {
+    height: 30px;
+    width: 100px;
+    margin-bottom: 7%;
+    margin-left: 1%;
+}
+
+#pr13 {
+    height: 30px;
+    width: 100px;
+    margin-bottom: 7%;
+    margin-left: 1%;
+}
+
+#pr14 {
+    height: 30px;
+    width: 100px;
+    margin-bottom: 7%;
+    margin-left: 1%;
+}
+
+#Carrinho {
+    background-color: palevioletred;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.pr2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.pr2 input {
+    border-radius: 10px;
+
+}
+
+#input3 {
+    margin-bottom: 40%;
+}
+
+.pr2 p {
+    font-size: 25px;
+    margin-top: 10%;
+}
+
+.pr3 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+.pr3 p {
+    font-size: 25px;
+
+}
+
+#rev {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#pre {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.pr3 input {
+    border-radius: 10px;
+}
+
+#cpf {
+    margin-top: 5%;
+}
+
+
+#cpf button {
+    height: 30px;
+    width: 50px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    border-radius: 10%;
+}
+
+#bpr3 {
+    background-color: palevioletred;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 20%;
+}

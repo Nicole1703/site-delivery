@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(timmerman\ \(20\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#filtro {
+    backdrop-filter: brightness(50%);
+    height: 100vh;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    gap: 2%;
+    color: white;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin-top: 1%;
+}
+
+nav button {
+    background-color: dimgray;
+    color: white;
+    height: 40%;
+    width: 80px;
+    border-radius: 30%;
+    border: none;
+    margin: 16px;
+
+}
+
+#Busca {
+    font-size: 50px;
+    margin-left: 10%;
+    margin-right: 20%;
+    text-decoration: underline wavy pink;
+}
+
+#p1 img {
+    width: 140px;
+    display: flex;
+
+
+}
+
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 1%;
+    color: white;
+    text-align: center;
+}
+
+.tudo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 1%;
+    color: white;
+    text-align: center;
+}
+
+.tudo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 1%;
+    color: white;
+    text-align: center;
+}
+
+.tudo4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 1%;
+    color: white;
+    text-align: center;
+}
